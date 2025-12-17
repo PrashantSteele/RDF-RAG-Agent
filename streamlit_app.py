@@ -163,8 +163,8 @@ with col1:
     if os.path.exists(logo_path):
         st.image(logo_path, width=80)
 with col2:
-    st.title("RGPV Ordinance Bot")
-    st.caption("Ask questions about Ordinance 11")
+    st.title("RGPV RDF Guidelines Bot")
+    st.caption("Ask questions about RDF Guidelines 2019")
 
 # Initialize Session State
 if "chat_history" not in st.session_state:
@@ -210,3 +210,4 @@ if prompt := st.chat_input("Ask a question about Ordinance 11..."):
                 st.session_state.chat_history.append(AIMessage(content=answer))
             except Exception as e:
                 st.error(f"An error occurred: {e}")
+
