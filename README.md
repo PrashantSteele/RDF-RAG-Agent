@@ -2,7 +2,7 @@
 
 A Retrieval-Augmented Generation (RAG) application built with LangChain and Streamlit for querying RGPV RDF Guidelines documents using natural language.
 
-![RGPV RAG Agent](image/RGPV%20Logo.png)
+![RGPV RAG Agent](RGPV%20Logo.png)
 
 ## 🌟 Features
 
